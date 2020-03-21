@@ -1,0 +1,102 @@
+
+body{
+	margin:10px 10px 20px 20px;
+}
+
+#invoicehouse{
+	border:8px dashed black;
+	height:600px;
+	width:1000px;
+}
+
+#header{
+	width:1000px;
+	height:150px;
+	background:white;
+	border:4px dashed black;
+	margin-bottom:10px;
+}
+
+#header img{
+	margin:40px 40px 40px 40px;
+}
+
+#reciept{
+	border:1px solid black;
+	height:200px;
+	width:600px;
+	margin: 110px 190px 110px 110px;
+}
+
+#recieptfoot{
+	border:1px solid black;
+	height:100px;
+	width:600px;
+	margin-left:110px;
+}
+
+#recieptfoot label{
+	background : black;
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+	margin-left:5px;
+	
+	
+}
+
+table thead{
+	font-weight:bolder;
+	font-size:20px;
+	background:black;
+	color:white;
+}
+
+table{
+	margin : 20px auto 20px auto;
+    
+}
+
+table tr{
+
+text-shadow:#333333;
+padding:20px 20px 20px 20px;
+}
+
+ul{
+	text-decoration:none;
+}
+
+ul li{
+	display:inline;
+	padding-right:300px;
+	text-decoration::none;
+	
+}
+
+a{
+	text-decoration:none;
+}
+
+#custname{
+	text-decoration:underline;
+}
+
+table{
+	border:2px solid black;
+}
+
+#show{
+	background:url(../images/buts.png) no-repeat;
+	height:32px;
+	width:144px;
+	border:0px;
+	color:white;
+	font-weight:bold;
+}
+
+
+
+#footer{
+
+}

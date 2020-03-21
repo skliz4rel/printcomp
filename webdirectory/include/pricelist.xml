@@ -1,0 +1,13 @@
+<?xml version='1.0'?>
+<pricelist>
+	<Calendar value="Calendar">100</Calendar>
+	<Cloth_Customization value="Cloth Customization">200</Cloth_Customization>
+	<Trats value="Trats">50</Trats>
+	<Book_Printing value="Book Printing">20</Book_Printing>
+	<Billboard value="Billboard">10</Billboard>
+	<Rollup_Banner value="Rollup Banner">20</Rollup_Banner>
+	<Other value="Other">Enter a price</Other>
+	
+
+</pricelist>
+

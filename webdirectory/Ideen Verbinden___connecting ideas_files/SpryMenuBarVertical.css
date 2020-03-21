@@ -1,0 +1,54 @@
+ul.MenuBarVertical {
+	margin: 0px; padding: 0px; width: 8em; font-size: 100%; list-style-type: none; cursor: default;
+}
+ul.MenuBarActive {
+	z-index: 1000;
+}
+ul.MenuBarVertical li {
+	margin: 0px; padding: 0px; width: 8em; text-align: left; font-size: 100%; list-style-type: none; position: relative; cursor: pointer;
+}
+ul.MenuBarVertical ul {
+	margin: -5% 0px 0px 95%; padding: 0px; left: -1000em; top: 0px; width: 8.2em; font-size: 100%; list-style-type: none; position: absolute; z-index: 1020; cursor: default;
+}
+ul.MenuBarVertical ul.MenuBarSubmenuVisible {
+	left: 0px;
+}
+ul.MenuBarVertical ul li {
+	width: 8.2em;
+}
+ul.MenuBarVertical {
+	border: 1px solid rgb(204, 204, 204);
+}
+ul.MenuBarVertical ul {
+	border: 1px solid rgb(204, 204, 204);
+}
+ul.MenuBarVertical a {
+	padding: 0.5em 0.75em; color: rgb(51, 51, 51); text-decoration: none; display: block; cursor: pointer; background-color: rgb(238, 238, 238);
+}
+ul.MenuBarVertical a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(51, 51, 204);
+}
+ul.MenuBarVertical a:focus {
+	color: rgb(255, 255, 255); background-color: rgb(51, 51, 204);
+}
+ul.MenuBarVertical a.MenuBarItemHover {
+	color: rgb(255, 255, 255); background-color: rgb(51, 51, 204);
+}
+ul.MenuBarVertical a.MenuBarItemSubmenuHover {
+	color: rgb(255, 255, 255); background-color: rgb(51, 51, 204);
+}
+ul.MenuBarVertical a.MenuBarSubmenuVisible {
+	color: rgb(255, 255, 255); background-color: rgb(51, 51, 204);
+}
+ul.MenuBarVertical a.MenuBarItemSubmenu {
+	background-position: 95% 50%; background-image: url("SpryMenuBarRight.gif"); background-repeat: no-repeat;
+}
+ul.MenuBarVertical a.MenuBarItemSubmenuHover {
+	background-position: 95% 50%; background-image: url("SpryMenuBarRightHover.gif"); background-repeat: no-repeat;
+}
+ul.MenuBarVertical iframe {
+	position: absolute; z-index: 1010;
+}
+ul.MenuBarVertical li.MenuBarItemIE {
+	background: rgb(255, 255, 255); float: left; display: inline;
+}

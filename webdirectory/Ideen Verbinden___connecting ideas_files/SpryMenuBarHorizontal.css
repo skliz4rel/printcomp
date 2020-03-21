@@ -1,0 +1,63 @@
+ul.MenuBarHorizontal {
+	margin: 0px; padding: 0px; width: auto; font-size: 100%; list-style-type: none; cursor: default;
+}
+ul.MenuBarActive {
+	z-index: 1000;
+}
+ul.MenuBarHorizontal li {
+	margin: 0px; padding: 0px; width: 7.2em; text-align: left; font-size: 100%; float: left; list-style-type: none; position: relative; cursor: pointer; background-image: url("images/cat.gif");
+}
+ul.MenuBarHorizontal ul {
+	margin: 0px; padding: 0px; left: -1000em; width: 8.2em; font-size: 100%; list-style-type: none; position: absolute; z-index: 1020; cursor: default;
+}
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible {
+	left: auto;
+}
+ul.MenuBarHorizontal ul li {
+	width: 15.2em;
+}
+ul.MenuBarHorizontal ul ul {
+	margin: -5% 0px 0px 95%; position: absolute;
+}
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible ul.MenuBarSubmenuVisible {
+	left: auto; top: 0px;
+}
+ul.MenuBarHorizontal ul {
+	border: 3px solid rgb(204, 204, 204); width: auto; background-color: rgb(255, 255, 255);
+}
+ul.MenuBarHorizontal a {
+	padding: 0.5em 0.75em; color: rgb(51, 51, 51); text-decoration: none; display: block; cursor: pointer;
+}
+ul.MenuBarHorizontal a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(51, 51, 204);
+}
+ul.MenuBarHorizontal a:focus {
+	color: rgb(255, 255, 255); background-color: rgb(51, 51, 204);
+}
+ul.MenuBarHorizontal a.MenuBarItemHover {
+	color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);
+}
+ul.MenuBarHorizontal a.MenuBarItemSubmenuHover {
+	color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);
+}
+ul.MenuBarHorizontal a.MenuBarSubmenuVisible {
+	color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);
+}
+ul.MenuBarHorizontal a.MenuBarItemSubmenu {
+	background-position: 95% 50%; background-image: url("SpryMenuBarDown.gif"); background-repeat: no-repeat;
+}
+ul.MenuBarHorizontal ul a.MenuBarItemSubmenu {
+	background-position: 95% 50%; background-image: url("SpryMenuBarRight.gif"); background-repeat: no-repeat;
+}
+ul.MenuBarHorizontal a.MenuBarItemSubmenuHover {
+	background-position: 95% 50%; background-image: url("SpryMenuBarDownHover.gif"); background-repeat: no-repeat;
+}
+ul.MenuBarHorizontal ul a.MenuBarItemSubmenuHover {
+	background-position: 95% 50%; background-image: url("SpryMenuBarRightHover.gif"); background-repeat: no-repeat;
+}
+ul.MenuBarHorizontal iframe {
+	position: absolute; z-index: 1010;
+}
+ul.MenuBarHorizontal li.MenuBarItemIE {
+	background: rgb(255, 255, 255); float: left; display: inline;
+}
